@@ -1,25 +1,7 @@
 export default function IndexPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-900">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-gray-800/90 backdrop-blur-md border-b border-gray-700">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-indigo-400">Astra</span>
-            <span className="text-white">IDE</span>
-          </div>
-          <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-300 hover:text-white transition">Fonctionnalités</a>
-            <a href="#" className="text-gray-300 hover:text-white transition">Tarifs</a>
-            <a href="#" className="text-gray-300 hover:text-white transition">Documentation</a>
-            <a href="#" className="text-gray-300 hover:text-white transition">Contact</a>
-          </nav>
-          <button className="bg-indigo-800 hover:bg-indigo-700 text-white px-4 py-2 rounded-md transition">
-            Se connecter
-          </button>
-        </div>
-      </header>
-      {/* Hero Section */}
+      {/* Heaection */}
       <section className="container mx-auto px-6 py-20 text-center">
         <h1 className="text-5xl font-bold text-white mb-6">
           Collaborez en temps réel avec <span className="text-indigo-600">Astra IDE</span>
